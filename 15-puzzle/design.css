@@ -1,0 +1,151 @@
+html {
+    height: 100%;
+  }
+  
+  body {
+    height: 100%;
+    background-image: url("background.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .game {
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    margin-top:40px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    background-image: url("board-background.avif");
+    border-radius: 5px;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: 80px 80px 80px;
+    grid-template-rows: 80px 80px 80px;
+    
+    
+  }
+  
+  .grid div {
+    background-image: url("block-background.jpg");
+    background-size: cover;
+    color:#ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 22px;;
+    border: 1px solid #550000;
+    outline: none;
+    cursor: pointer;
+    border-radius: 6px;
+    margin:2px;
+  }
+  .grid div:hover {
+    background-image: url("block-background.jpg");
+    background-size: cover;
+    color:#ffffff;
+    
+    font-size: 30px;
+    font-weight: bolder;
+    border: 1px solid #550000;
+    outline: none;
+    cursor: pointer;
+    border-radius: 6px;
+    margin:2px;
+  }
+
+  .grid2 {
+    display: grid;
+    grid-template-columns: 80px 80px 80px 80px;
+    grid-template-rows: 80px 80px 80px 80px;
+    
+    
+  }
+  
+  .grid2 div {
+    background-image: url("block-background.jpg");
+    background-size: cover;
+    color:#ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 22px;;
+    border: 1px solid #550000;
+    outline: none;
+    cursor: pointer;
+    border-radius: 6px;
+    margin:2px;
+  }
+  .grid2 div:hover {
+    background-image: url("block-background.jpg");
+    background-size: cover;
+    color:#ffffff;
+    
+    font-size: 30px;
+    font-weight: bolder;
+    border: 1px solid #550000;
+    outline: none;
+    cursor: pointer;
+    border-radius: 6px;
+    margin:2px;
+  }
+
+
+  .footer {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer button {
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    width: 60px;
+    background-color: #F5E67E;
+    color: #202020;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .footer button:hover {
+    color: #F5E67E;
+    background-color: #202020;
+  }
+  
+  .footer span {
+    flex: 1;
+    text-align: center;
+    font-size: 15px;
+    color: #D4EE9F;
+    font-weight: bold;
+    margin: auto 0;
+  }
+  
+  .message {
+    visibility: hidden;
+    color:#FFFFFF;
+    height: 80px;
+  }
+  #navigation{
+    margin-top: 25px;
+    border:2px solid #F0DB70;
+    border-radius: 5px;
+    cursor:pointer;
+    padding:8px;
+    font-family: cursive;
+    font-weight: bolder;
+    background-color: #A1A1A1;
+
+  }
+  #navigation:hover{
+    padding:10px;
+  }
